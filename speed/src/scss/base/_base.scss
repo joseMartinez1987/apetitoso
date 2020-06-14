@@ -1,0 +1,1169 @@
+a,
+body {
+    position: relative;
+    display: block;
+}
+
+a,
+ins {
+    text-decoration: none;
+}
+
+a,
+article,
+aside,
+body,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+hr,
+menu,
+nav,
+section {
+    display: block;
+}
+
+a,
+hr {
+    padding: 0;
+}
+
+a,
+button:focus,
+img {
+    outline: 0;
+}
+
+#ajaxBusy,
+body,
+html {
+    height: 100%;
+}
+
+#ajaxBusy,
+#returnToTop {
+    display: none !important;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 0.0625rem;
+}
+
+.js-off-canvas-overlay {
+    background-color: hsla(0, 0%, 4%, .75);
+}
+
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+}
+
+body {
+    font-family: 'GT America', sans-serif;
+    line-height: 1;
+}
+
+html {
+    background-color: var(--blanco) !important;
+}
+
+nav ul,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none;
+}
+
+a {
+    font-size: 100%;
+    margin: 0;
+    color: #222;
+    background: 0 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #2e2a25;
+}
+
+ins,
+mark {
+    color: var(--negro);
+    background-color: #ff9;
+}
+
+mark {
+    font-weight: 700;
+    font-style: italic;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    cursor: help;
+    border-bottom: 1px dotted;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+hr {
+    height: 1px;
+    margin: 1em 0;
+    border: 0;
+    border-top: 1px solid var(--grisTercero);
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+@font-face {
+    font-family: 'samsonite-brands-1';
+    src: url('/arquivos/samsonite-brands-1.eot.css?uaj185');
+    src: url('/arquivos/samsonite-brands-1.eot.css?uaj185#iefix') format('embedded-opentype'), url('/arquvivos/samsonite-brands-1.ttf.css?uaj185') format('truetype'), url('/arquivos/samsonite-brands-1.woff.css?uaj185') format('woff'), url('/arquivos/samsonite-brands-1.svg.css?uaj185#samsonite-brands') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'samsonite-brands';
+    src: url('https://samsonitemx.vteximg.com.br/arquivos/hos-brands.eot.css?n1s7wp');
+    src: url('https://samsonitemx.vteximg.com.br/arquivos/hos-brands.eot.css?n1s7wp#iefix') format('embedded-opentype'), 
+    url('https://samsonitemx.vteximg.com.br/arquivos/hos-brands.ttf.css?n1s7wp') format('truetype'), 
+    url('https://samsonitemx.vteximg.com.br/arquivos/hos-brands.woff.css?n1s7wp') format('woff'), 
+    url('https://samsonitemx.vteximg.com.br/arquivos/hos-brands.svg.css?n1s7wp#hos-brands') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Flaticon-Saxoline";
+    src: url("/arquivos/Flaticon-saxoline.eot.css");
+    src: url("/arquivos/Flaticon-saxoline.eot.css?#iefix") format("embedded-opentype"), url("/arquivosFlaticon-saxoline.woff.css") format("woff"), url("/arquivos/Flaticon-saxoline.ttf.css") format("truetype"), url("/arquivos/Flaticon-saxoline.svg.css#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'font-icons';
+    src: url(/arquivos/font-icons.css)
+}
+
+@font-face {
+    font-family: 'font-monogramming-symbols';
+    src: url(/arquivos/font-monogramming-symbols.css)
+}
+
+@font-face {
+    font-family: "Flaticon-ventaCorp";
+    src: url("/arquivos/Flaticon-ventaCorp.eot.css");
+    src: url("/arquivos/Flaticon-ventaCorp.eot.css?#iefix") format("embedded-opentype"), url("/arquivos/Flaticon-ventaCorp.woff.css") format("woff"), url("/arquivos/Flaticon-ventaCorp.ttf.css") format("truetype"), url("/arquivos/Flaticon-ventaCorp.svg.css#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Flaticon-ventaCorp";
+        src: url("/arquivos/Flaticon-ventaCorp.svg.css#Flaticon") format("svg");
+    }
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Light.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Light.woff.css') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Thin.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Thin.woff.css') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-RegularItalic.woff2.css') format('woff2'), url('/arquivos/GTAmerica-RegularItalic.woff.css') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Medium.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Medium.woff.css') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Bold.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Bold.woff.css') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Regular.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Regular.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Regular.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Regular.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Light.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Light.woff.css') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Thin.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Thin.woff.css') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-RegularItalic.woff2.css') format('woff2'), url('/arquivos/GTAmerica-RegularItalic.woff.css') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Medium.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Medium.woff.css') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Bold.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Bold.woff.css') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Thin.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Thin.woff.css') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-RegularItalic.woff2.css') format('woff2'), url('/arquivos/GTAmerica-RegularItalic.woff.css') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Medium.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Medium.woff.css') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Bold.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Bold.woff.css') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Regular.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Regular.woff.css') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url('/arquivos/GTAmerica-Light.woff2.css') format('woff2'), url('/arquivos/GTAmerica-Light.woff.css') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'samsonite-social';
+    src: url('/arquivos/samsonite-social.eot.css?f4p7tf');
+    src: url('/arquivos/samsonite-social.eot.css?f4p7tf#iefix') format('embedded-opentype'), url('/arquivos/samsonite-social.ttf.css?f4p7tf') format('truetype'), url('/arquivos/samsonite-social.woff.css?f4p7tf') format('woff'), url('/arquivos/samsonite-social.svg.css?f4p7tf#samsonite-social') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Expanded';
+    src: url('/arquivos/SamsoniteSans-Expanded.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Expanded.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Compressed';
+    src: url('/arquivos/SamsoniteSans-Compressed.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Compressed.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Standard';
+    src: url('/arquivos/SamsoniteSans-Standard.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Standard.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Condensed';
+    src: url('/arquivos/SamsoniteSans-Condensed.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Condensed.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Extended';
+    src: url('/arquivos/SamsoniteSans-Extended.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Extended.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Condensed';
+    src: url('/arquivos/SamsoniteSans-Condensed.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Condensed.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Compressed';
+    src: url('/arquivos/SamsoniteSans-Compressed.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Compressed.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Standard';
+    src: url('/arquivos/SamsoniteSans-Standard.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Standard.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Expanded';
+    src: url('/arquivos/SamsoniteSans-Expanded.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Expanded.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Extended';
+    src: url('/arquivos/SamsoniteSans-Extended.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Extended.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Expanded';
+    src: url('/arquivos/SamsoniteSans-Expanded.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Expanded.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Condensed';
+    src: url('/arquivos/SamsoniteSans-Condensed.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Condensed.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Extended';
+    src: url('/arquivos/SamsoniteSans-Extended.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Extended.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Standard';
+    src: url('/arquivos/SamsoniteSans-Standard.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Standard.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'Samsonite Sans Compressed';
+    src: url('/arquivos/SamsoniteSans-Compressed.woff2.css') format('woff2'), url('/arquivos/SamsoniteSans-Compressed.woff.css') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/* House ICON */
+
+@font-face {
+    font-family: "houseicon";
+    src: url("https://samsonitemx.vteximg.com.br/arquivos/houseicon.eot.css");
+    src: url("https://samsonitemx.vteximg.com.br/arquivos/houseicon.eot.css?#iefix") format("embedded-opentype"), url("https://samsonitemx.vteximg.com.br/arquivos/houseicon.woff.css") format("woff"), url("https://samsonitemx.vteximg.com.br/arquivos/houseicon.ttf.css") format("truetype"), url("https://samsonitemx.vteximg.com.br/arquivos/houseicon.svg.css#houseicon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "houseicon";
+        src: url("https://samsonitemx.vteximg.com.br/arquivos/houseicon.svg.css#houseicon") format("svg");
+    }
+}
+
+[class^="houseicon-"]:before,
+[class*=" houseicon-"]:before,
+[class^="houseicon-"]:after,
+[class*=" houseicon-"]:after {
+    font-family: houseicon;
+    font-size: 15px;
+    font-style: normal;
+    margin-right: 3px;
+    margin-left: 1px;
+}
+
+.navigation__content--mobile [class^="houseicon-"]:before,
+.navigation__content--mobile [class*=" houseicon-"]:before,
+.navigation__content--mobile [class^="houseicon-"]:after,
+.navigation__content--mobile [class*=" houseicon-"]:after {
+    font-size: 1.5rem;
+}
+
+.houseicon-001-phone-call:before {
+    content: "\f100";
+}
+
+.houseicon-002-shopping-cart:before {
+    content: "\f101";
+}
+
+.houseicon-003-heart:before {
+    content: "\f102";
+}
+
+.houseicon-004-share:before {
+    content: "\f103";
+}
+
+.houseicon-005-chat:before {
+    content: "\f104";
+}
+
+.houseicon-006-edit:before {
+    content: "\f105";
+}
+
+.houseicon-007-star:before {
+    content: "\f106";
+}
+
+.houseicon-008-download:before {
+    content: "\f107";
+}
+
+.houseicon-009-upload:before {
+    content: "\f108";
+}
+
+.houseicon-010-house:before {
+    content: "\f109";
+}
+
+.houseicon-011-shopping-bag:before {
+    content: "\f10a";
+}
+
+.houseicon-012-envelope:before {
+    content: "\f10b";
+}
+
+.houseicon-013-reload:before {
+    content: "\f10c";
+}
+
+.houseicon-014-cancel:before {
+    content: "\f10d";
+}
+
+.houseicon-015-printer:before {
+    content: "\f10e";
+}
+
+.houseicon-016-pie-chart:before {
+    content: "\f10f";
+}
+
+.houseicon-017-copy:before {
+    content: "\f110";
+}
+
+.houseicon-018-login:before {
+    content: "\f111";
+}
+
+.houseicon-019-garbage:before {
+    content: "\f112";
+}
+
+.houseicon-020-headphones:before {
+    content: "\f113";
+}
+
+.houseicon-021-padlock:before {
+    content: "\f114";
+}
+
+.houseicon-022-logout:before {
+    content: "\f115";
+}
+
+.houseicon-023-avatar:before {
+    content: "\f116";
+}
+
+.houseicon-024-settings:before {
+    content: "\f117";
+}
+
+.houseicon-025-monitor:before {
+    content: "\f118";
+}
+
+.houseicon-026-photo-camera:before {
+    content: "\f119";
+}
+
+.houseicon-027-book:before {
+    content: "\f11a";
+}
+
+.houseicon-028-clock:before {
+    content: "\f11b";
+}
+
+.houseicon-029-paper-plane:before {
+    content: "\f11c";
+}
+
+.houseicon-030-shuffle:before {
+    content: "\f11d";
+}
+
+.houseicon-031-speaker:before {
+    content: "\f11e";
+}
+
+.houseicon-032-like:before {
+    content: "\f11f";
+}
+
+.houseicon-033-dislike:before {
+    content: "\f120";
+}
+
+.houseicon-034-next:before {
+    content: "\f121";
+}
+
+.houseicon-035-tag:before {
+    content: "\f122";
+}
+
+.houseicon-036-folder:before {
+    content: "\f123";
+}
+
+.houseicon-037-cloud:before {
+    content: "\f124";
+}
+
+.houseicon-038-plus:before {
+    content: "\f125";
+}
+
+.houseicon-039-play:before {
+    content: "\f126";
+}
+
+.houseicon-040-smartphone:before {
+    content: "\f127";
+}
+
+.houseicon-041-success:before {
+    content: "\f128";
+}
+
+.houseicon-042-internet:before {
+    content: "\f129";
+}
+
+.houseicon-043-notification:before {
+    content: "\f12a";
+}
+
+.houseicon-044-minus:before {
+    content: "\f12b";
+}
+
+.houseicon-045-back:before {
+    content: "\f12c";
+}
+
+.houseicon-046-menu:before {
+    content: "\f12d";
+}
+
+.houseicon-047-gear:before {
+    content: "\f12e";
+}
+
+.houseicon-048-magnifying-glass:before {
+    content: "\f12f";
+}
+
+.houseicon-049-calendar:before {
+    content: "\f130";
+}
+
+.houseicon-050-placeholder:before {
+    content: "\f131";
+}
+
+@font-face {
+    font-family: "SolidArrowCollection";
+    src: url("/arquivos/solid-arrow-collection.eot.css");
+    src: url("/arquivos/solid-arrow-collection.eot.css?#iefix") format("embedded-opentype"), url("/arquivos/solid-arrow-collection.woff.css") format("woff"), url("/arquivos/solid-arrow-collection.ttf.css") format("truetype"), url("/arquivos/solid-arrow-collection.svg.css#SolidArrowCollection") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "SolidArrowCollection";
+        src: url("/arquivos/solid-arrow-collection.svg#SolidArrowCollection") format("svg");
+    }
+}
+
+[class^="arrowicon-"]:before,
+[class*=" arrowicon-"]:before,
+[class^="arrowicon-"]:after,
+[class*=" arrowicon-"]:after {
+    font-family: SolidArrowCollection;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.arrowicon-compress:before {
+    content: "\f100";
+}
+
+.arrowicon-compress-1:before {
+    content: "\f101";
+}
+
+.arrowicon-crossroads:before {
+    content: "\f102";
+}
+
+.arrowicon-crossroads-1:before {
+    content: "\f103";
+}
+
+.arrowicon-curve-arrow:before {
+    content: "\f104";
+}
+
+.arrowicon-curve-arrow-1:before {
+    content: "\f105";
+}
+
+.arrowicon-curve-arrow-2:before {
+    content: "\f106";
+}
+
+.arrowicon-curve-arrow-3:before {
+    content: "\f107";
+}
+
+.arrowicon-diagonal-arrow:before {
+    content: "\f108";
+}
+
+.arrowicon-diagonal-arrow-1:before {
+    content: "\f109";
+}
+
+.arrowicon-diagonal-arrow-10:before {
+    content: "\f10a";
+}
+
+.arrowicon-diagonal-arrow-11:before {
+    content: "\f10b";
+}
+
+.arrowicon-diagonal-arrow-12:before {
+    content: "\f10c";
+}
+
+.arrowicon-diagonal-arrow-13:before {
+    content: "\f10d";
+}
+
+.arrowicon-diagonal-arrow-14:before {
+    content: "\f10e";
+}
+
+.arrowicon-diagonal-arrow-15:before {
+    content: "\f10f";
+}
+
+.arrowicon-diagonal-arrow-2:before {
+    content: "\f110";
+}
+
+.arrowicon-diagonal-arrow-3:before {
+    content: "\f111";
+}
+
+.arrowicon-diagonal-arrow-4:before {
+    content: "\f112";
+}
+
+.arrowicon-diagonal-arrow-5:before {
+    content: "\f113";
+}
+
+.arrowicon-diagonal-arrow-6:before {
+    content: "\f114";
+}
+
+.arrowicon-diagonal-arrow-7:before {
+    content: "\f115";
+}
+
+.arrowicon-diagonal-arrow-8:before {
+    content: "\f116";
+}
+
+.arrowicon-diagonal-arrow-9:before {
+    content: "\f117";
+}
+
+.arrowicon-double-arrow:before {
+    content: "\f118";
+}
+
+.arrowicon-double-arrow-1:before {
+    content: "\f119";
+}
+
+.arrowicon-double-arrow-2:before {
+    content: "\f11a";
+}
+
+.arrowicon-double-arrow-3:before {
+    content: "\f11b";
+}
+
+.arrowicon-double-arrow-4:before {
+    content: "\f11c";
+}
+
+.arrowicon-double-arrow-5:before {
+    content: "\f11d";
+}
+
+.arrowicon-down-arrow:before {
+    content: "\f11e";
+}
+
+.arrowicon-down-arrow-1:before {
+    content: "\f11f";
+}
+
+.arrowicon-down-arrow-2:before {
+    content: "\f120";
+}
+
+.arrowicon-down-arrow-3:before {
+    content: "\f121";
+}
+
+.arrowicon-down-arrow-4:before {
+    content: "\f122";
+}
+
+.arrowicon-down-chevron:before {
+    content: "\f123";
+}
+
+.arrowicon-down-chevron-1:before {
+    content: "\f124";
+}
+
+.arrowicon-down-chevron-2:before {
+    content: "\f125";
+}
+
+.arrowicon-down-chevron-3:before {
+    content: "\f126";
+}
+
+.arrowicon-down-chevron-4:before {
+    content: "\f127";
+}
+
+.arrowicon-exchange:before {
+    content: "\f128";
+}
+
+.arrowicon-exchange-1:before {
+    content: "\f129";
+}
+
+.arrowicon-exchange-2:before {
+    content: "\f12a";
+}
+
+.arrowicon-exchange-3:before {
+    content: "\f12b";
+}
+
+.arrowicon-exchange-4:before {
+    content: "\f12c";
+}
+
+.arrowicon-exchange-5:before {
+    content: "\f12d";
+}
+
+.arrowicon-expand:before {
+    content: "\f12e";
+}
+
+.arrowicon-expand-1:before {
+    content: "\f12f";
+}
+
+.arrowicon-expand-2:before {
+    content: "\f130";
+}
+
+.arrowicon-full-screen:before {
+    content: "\f131";
+}
+
+.arrowicon-left-arrow:before {
+    content: "\f132";
+}
+
+.arrowicon-left-arrow-1:before {
+    content: "\f133";
+}
+
+.arrowicon-left-arrow-2:before {
+    content: "\f134";
+}
+
+.arrowicon-left-arrow-3:before {
+    content: "\f135";
+}
+
+.arrowicon-left-arrow-4:before {
+    content: "\f136";
+}
+
+.arrowicon-left-arrow-5:before {
+    content: "\f137";
+}
+
+.arrowicon-left-arrow-6:before {
+    content: "\f138";
+}
+
+.arrowicon-left-chevron:before {
+    content: "\f139";
+}
+
+.arrowicon-left-chevron-1:before {
+    content: "\f13a";
+}
+
+.arrowicon-left-chevron-2:before {
+    content: "\f13b";
+}
+
+.arrowicon-left-chevron-3:before {
+    content: "\f13c";
+}
+
+.arrowicon-left-chevron-4:before {
+    content: "\f13d";
+}
+
+.arrowicon-redo:before {
+    content: "\f13e";
+}
+
+.arrowicon-redo-1:before {
+    content: "\f13f";
+}
+
+.arrowicon-right-arrow:before {
+    content: "\f140";
+}
+
+.arrowicon-right-arrow-1:before {
+    content: "\f141";
+}
+
+.arrowicon-right-arrow-2:before {
+    content: "\f142";
+}
+
+.arrowicon-right-arrow-3:before {
+    content: "\f143";
+}
+
+.arrowicon-right-arrow-4:before {
+    content: "\f144";
+}
+
+.arrowicon-right-arrow-5:before {
+    content: "\f145";
+}
+
+.arrowicon-right-arrow-6:before {
+    content: "\f146";
+}
+
+.arrowicon-right-chevron:before {
+    content: "\f147";
+}
+
+.arrowicon-right-chevron-1:before {
+    content: "\f148";
+}
+
+.arrowicon-right-chevron-2:before {
+    content: "\f149";
+}
+
+.arrowicon-right-chevron-3:before {
+    content: "\f14a";
+}
+
+.arrowicon-right-chevron-4:before {
+    content: "\f14b";
+}
+
+.arrowicon-turn-left:before {
+    content: "\f14c";
+}
+
+.arrowicon-turn-left-1:before {
+    content: "\f14d";
+}
+
+.arrowicon-turn-right:before {
+    content: "\f14e";
+}
+
+.arrowicon-turn-right-1:before {
+    content: "\f14f";
+}
+
+.arrowicon-undo:before {
+    content: "\f150";
+}
+
+.arrowicon-undo-1:before {
+    content: "\f151";
+}
+
+.arrowicon-up-arrow:before {
+    content: "\f152";
+}
+
+.arrowicon-up-arrow-1:before {
+    content: "\f153";
+}
+
+.arrowicon-up-arrow-2:before {
+    content: "\f154";
+}
+
+.arrowicon-up-arrow-3:before {
+    content: "\f155";
+}
+
+.arrowicon-up-arrow-4:before {
+    content: "\f156";
+}
+
+.arrowicon-up-chevron:before {
+    content: "\f157";
+}
+
+.arrowicon-up-chevron-1:before {
+    content: "\f158";
+}
+
+.arrowicon-up-chevron-2:before {
+    content: "\f159";
+}
+
+.arrowicon-up-chevron-3:before {
+    content: "\f15a";
+}
+
+.arrowicon-up-chevron-4:before {
+    content: "\f15b";
+}
+
+
+/* House ICON */
+
+body.produto main,
+body.departamento main,
+body.categoria main,
+body.resultado-busca main, 
+body.brand main {
+    width: 85%;
+    margin: 0 auto;
+}

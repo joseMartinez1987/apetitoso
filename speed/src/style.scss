@@ -1,0 +1,471 @@
+/*----------------------------init--------------------------------
+
+[Stylesheet - Main]
+
+Stylesheet based in ITCSS and SMACSS
+
+Project:  houseofsamsonite - 2020
+Assigned to:  implementación.
+Primary use:  ecommerce.
+
+----------------------
+
+[Colors ]
+
+
+
+----------------------
+
+[Typos ]
+
+----------------------
+
+[Mediaqueries guides ]
+
+@media only screen and (min-width: 90.063em) { }
+@media (max-width: 90rem) {}
+@media screen and (min-width: 64em) {}
+@media only screen and (max-width: 40em) { }
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { }
+
+----------------------
+
+[Content table ]
+
+--------- Configs -------------
+
+C0.Functions
+C1.Variables
+C1.Mixins
+
+--------- Resets -------------
+
+R0.Base
+
+--------- Layout Elemets -------------
+
+L0.Containers
+L1.Contents
+
+--------- Theme Styles -------------
+
+TS0.Borders
+TS1.Shadows
+TS3.Fonts
+TS4.Paddings
+TS5.Margin
+TS6.Colors
+TS7.Background
+TS8.Overlay
+
+--------- Components -------------
+
+| UI Elements |
+
+UI1.Buttons
+UI2.Tables
+UI3.Lists
+UI4.Banners
+UI5.Modal
+UI6.Tabs
+UI7.Icons
+UI8.Cards
+UI9.Links
+UI10.Forms
+
+| Subtemplates |
+
+SB1.Topbar
+SB2.Mediaquerie topbar
+SB3.Header
+SB4.Mediaquerie header
+SB5.Navigator
+SB6.Mediaquerie navigator
+SB7.Footer
+SB8.Mediaquerie footer
+
+| Showcases |
+
+SH1.Prateleira
+SH2.Mediaquerie prateleira
+SH3.Prateleira destacados
+SH4.Mediaquerie prateleira destacados
+
+| Controllers |
+
+CT0.Loader Sitio
+CT1.Search bar
+CT2.Mediaquerie search bar
+CT3.Minicart
+CT4.Mediaquerie minicart
+CT5.Wishlist
+CT6.Mediaquerie wishlist
+CT7.Search navigator
+CT8.Mediaquerie search navigator
+CT9.Breadcrumb
+CT10.Mediaquerie breadcrumb
+CT11.Search result time
+CT12.Mediaquerie search result time
+CT13.Reviews and rates
+CT14.Mediaquerie reviews and rates.
+CT15.Sticky buy
+CT16.Mediaquerie sticky buy.
+CT17.Zoom
+CT18.Mediaquerie zoom
+
+| Customs |
+
+CM0.Despacho y disponibilidad en tienda
+CM1.Mediaquerie despacho y disponibilidad en tienda
+CM2.Promocion header
+CM3.Mediaquerie promocion header
+CM4.Slick
+CM5.Mediaquerie slick
+CM6.Megamenu
+CM7.Mediaquerie megamenu
+CM8.Hc sticky
+CM9.Mediaquerie hc sticky
+CM10.HeadroomJS
+CM11.Mediaquerie headroomJS
+CM12.Off canvas
+CM13.Mediaquerie off canvas
+CM14.Back to top
+CM15.Mediaquerie back to top
+CM16.Promesas de marca
+CM17.Mediaquerie promesas de marca
+CM18.User: muestra si esta o no logeado
+CM19.Mediaquerie user
+CM20.Producto redes sociales
+CM21.Mediaquerie producto redes sociales
+CM22.MSI message
+CM23.Mediaquerie MSI message
+CM24.Producto: Aviseme
+CM25.Mediaquerie producto: Aviseme
+CM26.Quickview
+CM27.Mediaquerie quickview
+
+| Pages |
+
+PG1.Home
+PG2.Mediaquerie home
+PG3.Categoria
+PG4.Mediaquerie categoria
+PG5.Departamento
+PG6.Mediaquerie departamento
+PG7.Producto
+PG8.Mediaquerie producto
+PG9.Busca
+PG10.Mediaquerie busca
+PG11.Marca
+PG12.Mediaquerie marca
+PG13.Sistema
+PG14.Mediaquerie sistema
+PG15.Login
+PG16.Mediaquerie login
+PG17.Account
+PG18.Mediaquerie account
+PG19.Orders 
+PG20.Mediaquerie orders
+PG21.Orders overwrite bootstrap
+PG22.Mediaquerie orders overwrite bootstrap
+PG23.Giftlist
+PG24.Mediaquerie giftlist
+PG25.Estaticas
+    PG25_a.Medios de pago
+    PG25_b.Mediaquerie medios de pago
+    PG25_c.Guia de tallas
+    PG25_d.Mediaquerie guia de tallas
+    PG25_e.Sobre nosotros
+    PG25_f.Mediaquerie sobre nosotros
+    PG25_g.Centro de ayuda
+    PG25_h.Mediaquerie centro de ayuda
+    PG25_i.Nuestras tiendas
+    PG25_j.Mediaquerie nuestras tiendas
+    PG25_k.Contacto
+    PG25_l.Mediaquerie contacto
+PG26.Mediaquerie estaticas
+PG27.Orders
+PG28.Mediaquerie orders
+PG29 benefit
+PG30 Mediaquerie benefit
+-------------------------fin---------------------------------*/
+
+
+/*
+[C1.Variables]
+
+==================================*/
+
+@import "src/scss/config/_variables";
+
+/*
+[R0.Base]
+
+==================================*/
+
+@import "src/scss/base/_base";
+
+/*
+[L0.Containers]
+
+==================================*/
+
+@import "src/scss/layout/_containers";
+
+/*[L1.Contents]
+==================================*/
+
+@import "src/scss/layout/_contents";
+
+/*
+[SB1.Topbar]
+==================================*/
+
+@import "src/scss/components/subtemplates/_topbar";
+
+/*[SB2.Header.Mediaquerie  Topbar]
+==================================*/
+
+@import "src/scss/components/subtemplates/mediaqueries/_mediaquerie-topbar";
+
+/*[SB3.Header]
+==================================*/
+
+@import "src/scss/components/subtemplates/_header";
+
+/*[SB4.Header.Mediaquerie  header]
+==================================*/
+
+@import "src/scss/components/subtemplates/mediaqueries/_mediaquerie-header";
+
+/*[SB5.Navigator]
+==================================*/
+
+@import "src/scss/components/subtemplates/_navigator";
+
+/*[SB6.Mediaquerie navigator]
+==================================*/
+
+@import "src/scss/components/subtemplates/mediaqueries/_mediaquerie-navigator";
+
+/*[SB7.Footer]
+==================================*/
+
+@import "src/scss/components/subtemplates/_footer";
+
+/*[SB8.Mediaquerie footer]
+==================================*/
+
+@import "src/scss/components/subtemplates/mediaqueries/_mediaquerie-footer";
+
+/*[SH1.Prateleira]
+==================================*/
+
+@import "src/scss/components/showcases/_category-prateleira";
+
+/*[SH2.Mediaquerie prateleira]
+==================================*/
+
+@import "src/scss/components/showcases/mediaqueries/_mediaquerie-category-prateleira";
+
+/*[SH3.Prateleira destacados]
+==================================*/
+
+@import "src/scss/components/showcases/_products-prateleira";
+
+/*[SH4.Mediaquerie prateleira destacados]
+==================================*/
+
+@import "src/scss/components/showcases/mediaqueries/_mediaquerie-products-prateleira";
+
+/*[CT0.Loader Sitio]
+==================================*/
+
+@import "src/scss/components/controllers/_loader-sitio";
+
+/*[CT1.Search bar]
+==================================*/
+
+@import "src/scss/components/controllers/_search-bar";
+
+/*[CT2.Mediaquerie search bar]
+==================================*/
+
+@import "src/scss/components/controllers/mediaqueries/_mediaquerie-search-bar";
+
+/*[CT3.Minicart]
+==================================*/
+
+@import "src/scss/components/controllers/_minicart";
+
+/*[CT4.Mediaquerie minicart]
+==================================*/
+
+@import "src/scss/components/controllers/mediaqueries/_mediaquerie-minicart";
+
+/*[CT7.Search navigator]
+==================================*/
+
+@import "src/scss/components/controllers/_search-navigator";
+
+/*[CT8.Mediaquerie search navigator]
+==================================*/
+
+@import "src/scss/components/controllers/mediaqueries/_mediaquerie-search-navigator";
+
+/*[CT9.Breadcrumb]
+==================================*/
+
+@import "src/scss/components/controllers/_breadcrumb";
+
+/*[CT10.Mediaquerie breadcrumb]
+==================================*/
+
+@import "src/scss/components/controllers/mediaqueries/_mediaquerie-breadcrumb";
+
+/*[CM14.Back to top]
+==================================*/
+
+@import "src/scss/components/customs/_back-to-top";
+
+/*[CM15.Mediaquerie back to top]
+==================================*/
+
+@import "src/scss/components/customs/mediaqueries/_mediaquerie-back-to-top";
+
+/*[CT17.Zoom]
+==================================*/
+
+@import "src/scss/components/controllers/_zoom";
+
+/*[CT18.Zoom]
+==================================*/
+
+@import "src/scss/components/controllers/mediaqueries/_mediaquerie-zoom";
+
+/*[CM2.Promocion header ]
+==================================*/
+
+@import "src/scss/components/customs/_promocion-header";
+
+/*[CM3.Mediaquerie promocion header]
+==================================*/
+
+@import "src/scss/components/customs/mediaqueries/_mediaquerie-promocion-header";
+
+/*[CM4.Slick]
+==================================*/
+
+@import "src/scss/components/customs/_slick";
+
+/*[CM5. MediaquerieSlick]
+==================================*/
+
+@import "src/scss/components/customs/mediaqueries/_mediaquerie-slick";
+
+/*[CM10.HeadroomJS]
+==================================*/
+
+@import "src/scss/components/customs/_headroomjs";
+
+/*[CM11.Mediaquerie headroomJS]
+==================================*/
+
+@import "src/scss/components/customs/mediaqueries/_mediaquerie-headroomjs";
+
+/*[CM12.Off canvas ]
+==================================*/
+
+@import "src/scss/components/customs/_off-canvas";
+
+/*[CM13.Mediaquerie off canvas]
+==================================*/
+
+@import "src/scss/components/customs/mediaqueries/_mediaquerie-off-canvas";
+
+/*[PG1.Home]
+==================================*/
+
+@import "src/scss/components/pages/_home";
+
+/*[PG2.Mediaquerie home]
+==================================*/
+
+@import "src/scss/components/pages/mediaqueries/_mediaquerie-home";
+
+/*[PG3.Categoria]
+==================================*/
+
+@import "src/scss/components/pages/_category";
+
+/*[PG4.Mediaquerie categoria]
+==================================*/
+
+@import "src/scss/components/pages/mediaqueries/_mediaquerie-category";
+
+/*[PG5.Departamento]
+==================================*/
+
+@import "src/scss/components/pages/_departament";
+
+/*[PG6.Mediaquerie departamento]
+==================================*/
+
+@import "src/scss/components/pages/mediaqueries/_mediaquerie-departament";
+
+/*[PG7.Producto]
+==================================*/
+
+@import "src/scss/components/pages/_product";
+
+/*[PG8.Mediaquerie product]
+==================================*/
+
+@import "src/scss/components/pages/mediaqueries/_mediaquerie-product";
+
+/*[PG13.Sistema]
+==================================*/
+
+@import "src/scss/components/pages/_system";
+
+/*[PG14.Mediaquerie sistema]
+==================================*/
+
+@import "src/scss/components/pages/mediaqueries/_mediaquerie-system";
+
+/*[PG15.Login]
+==================================*/
+
+@import "src/scss/components/pages/_login";
+
+/*[PG16.Mediaquerie login]
+==================================*/
+
+@import "src/scss/components/pages/mediaqueries/_mediaquerie-login";
+
+/*
+PG19.Orders==================================*/
+
+@import "src/scss/components/pages/_orders";
+
+/*
+PG20.Mediaquerie==================================*/
+
+@import "src/scss/components/pages/mediaqueries/_mediaquerie-orders";
+
+/*
+[PG25.Estaticas]
+
+==================================*/
+
+@import "src/scss/components/pages/_statics";
+
+/*
+[PG26. Mediaquerie estaticas]
+
+==================================*/
+
+@import "src/scss/components/pages/mediaqueries/_mediaquerie-statics";
+
+
+

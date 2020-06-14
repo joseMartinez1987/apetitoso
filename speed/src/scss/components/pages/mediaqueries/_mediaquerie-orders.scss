@@ -1,0 +1,22 @@
+@media only screen and (min-width: 40em) and (max-width: 64em) {
+    .orders a.topbar__main-item {
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .orders .header__topbar {
+        text-align: center;
+        display: none;
+    }
+    .orders .nav-content__items {
+        display: none;
+    }
+    .orders .icon-navigator__center .logotrial {
+        width: 10rem;
+        height: 6rem;
+        fill: var(--blanco);
+        display: flex;
+        margin: -3rem 0 0 -4rem;
+    }
+}

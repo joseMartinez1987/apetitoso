@@ -1,0 +1,16 @@
+@media only screen and (max-width: 40em) {
+    h4.vtexIdUI-heading span {
+        line-height: 1.25rem;
+    }
+    .login__info-container {
+        width: 18.9rem;
+        top: 24.5rem;
+    }
+    .login__info-content{
+        margin-right: 0rem;
+    }
+    button#loginWithAccessKeyBtn,
+    button#loginWithUserAndPasswordBtn{
+        padding: .5rem 1rem;
+    }
+}

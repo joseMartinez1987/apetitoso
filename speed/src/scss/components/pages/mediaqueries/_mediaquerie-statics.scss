@@ -1,0 +1,115 @@
+@media only screen and (max-width: 40em) {
+    .static__aside {
+        display: none;
+    }
+    .static__info--text {
+        width: 100%;
+        padding: 0;
+    }
+    .static__paragraph--div {
+        margin-right: -3rem;
+        margin-left: 0rem;
+    }
+    ul.static-img__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    li.static-img__list--wsp {
+        margin: 0;
+    }
+    .static__container--title {
+        font-size: 1rem;
+    }
+    .static__paragraph,
+    .static__paragraph--div,
+    .static__list {
+        text-align: justify;
+    }
+    /*=============== Estatica: Politica de Devoluciones ================*/
+    .list-steps .steps-item .steps-content {
+        text-indent: 0rem;
+        line-height: 1.5rem;
+        font-size: .9rem;
+        color: #555555;
+    }
+    .list-steps .steps-item .steps-content:nth-child(7) p {
+        line-height: 1.5rem;
+        text-indent: initial;
+        margin-left: 0rem;
+    }
+    .list-steps .steps-item .steps-content:nth-child(8) p,
+    .list-steps .steps-item .steps-content:nth-child(3) p,
+    .list-steps .steps-item .steps-content:nth-child(6) p {
+        line-height: 3rem;
+    }
+    .list-steps .steps-item .steps-content img {
+        margin-right: 1rem;
+    }
+    /*=============== Estatica: Newsletter================*/
+    .newsletter .static__container {
+        padding: 3rem 2rem;
+    }
+    .newsletter .static__container--info {
+        width: 100%;
+    }
+    .content__input--form [type=text],
+    .content__input--form [type=date],
+    .content__input--form [type=email] {
+        width: 100%;
+    }
+    #newsletter-form input[type=submit] {
+        max-width: 100%;
+    }
+    /* ============ Form contacto ============*/
+    .static__info--text ul.contact_form li {
+        border: none;
+        padding: 1rem 0;
+        div.title-tab {
+            letter-spacing: inherit;
+            text-transform: none;
+        }
+    }
+    div.contact-form-field label {
+        text-transform: capitalize;
+    }
+    .show-for-medium {
+        display: none;
+    }
+    .show-for-small-only {
+        display: block;
+    }
+    .banner_text {
+        width: 100%;
+        text-align: center;
+    }
+    .banner_text h1 {
+        display: block;
+        font-size: 1.5rem;
+    }
+    .banner_text p {
+        display: none;
+    }
+    .timeline_section1 {
+        display: block;
+    }
+    .profile_image {
+        width: 100%;
+    }
+    .timeline_container {
+        width: 90.5%;
+    }
+    .profile_text {
+        width: 100%;
+    }
+    .profile_text p {
+        line-height: 20px;
+    }
+    .static__container--info {
+        width: 100%;
+        padding: 1rem;
+    }
+    .parrafo-institucional {
+        font-size: 1rem;
+    }
+}
